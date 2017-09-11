@@ -6,7 +6,7 @@ Sub Push_to_PowerPoint()
   Dim SlideTitle As String
 'Step 2: Open PowerPoint and create new presentation
   Set PP = New PowerPoint.Application
-  Set PPPres = PP.Presentations.Open("FILE ADDRESS")
+  Set PPPres = PP.Presentations.Open("F I L E A D D R E S S")
   PP.Visible = True
 'Step 3: Add new slide as slide 1 and set focus to it
   Set PPSlide = PPPres.Slides(1)
